@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Refresh Cleaning</title>
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<h1><img src="images/logo.jpg" alt="Refresh Cleaning Logo" /></h1>
+		  <div id="nav">        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="quote.html" id="nav_current_page">GET A QUOTE</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul></div>
+	  </div>
+		<div id="body">
+            <h1>GET A QUOTE</h1>
+            <br />
+			<form id="quote" method="post" action="">
+				<table>
+					<tr>
+						<td class="label"><label id="name" for="name"><strong>Name</strong> <span class="requiredfield">*</span></label></td>
+						<td class="field"><input id="name1" name="name" type="text" value="" size="50" maxlength="100" /></td>
+					</tr>
+					<tr>
+						<td class="label"><label id="company" for="company"><strong>Company</strong> <span class="requiredfield">*</span></label></td>
+						<td class="field"><input id="company1" name="company" type="text" value="" size="50" maxlength="100" /></td>		
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>
+                        	<br />		      
+							<label><strong>Services Required</strong></label>
+                            <br />
+							<input type="checkbox" name="Services Required" value="checkbox" id="ServicesRequired_0" />
+							Sub-Floor Maintenance for Data Centre or Computer Room
+						</td>
+					</tr>
+					<tr>
+						<td><label>
+							<input type="checkbox" name="Services Required" value="checkbox" id="ServicesRequired_1" />
+							Above-Floor Regular Maintenance for Data Centre or Computer Room</label></td>
+					</tr>
+					<tr>
+						<td><label>
+							<input type="checkbox" name="Services Required" value="checkbox" id="ServicesRequired_2" />
+							Office and Facilities Cleaning</label></td>
+					</tr>
+					<tr>
+						<td><label>
+							<input type="checkbox" name="Services Required" value="checkbox" id="ServicesRequired_3" />
+							Other</label></td>
+					</tr>
+					<tr>
+						<td>If 'Other', Please Specify <input name="Other" type="text" size="30" /></td>
+					</tr>
+				</table>
+				<p>&nbsp;</p>
+				<label><strong>Preferred Method of Contact</strong></label>
+                <br />
+				<table width="200">
+					<tr>
+						<td><input type="radio" name="Preferred Method of Contact" value="radio" id="PreferredMethodofContact_0" />
+						Phone</td>
+						<td><label>
+						<input type="radio" name="Preferred Method of Contact" value="radio" id="PreferredMethodofContact_1" />
+						Email</label></td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td><label for="Phone"><strong>Phone Number</strong></label></td><td>
+						<input type="text" name="Phone" id="Phone" size="30" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for="Time"><strong>Best Time to Contact You</strong></label></td><td>
+						<input type="text" name="Time" id="Time" size="30" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<label for="Email"><strong>Email Address </strong><span class="requiredfield">*</span></label>
+						</td>
+						<td><input type="text" name="Email" id="Email" size="30" />
+						</td>
+					</tr>
+				</table>
+						  <p>&nbsp;</p>
+				<table>
+					<tr>
+						<td><legend><strong>Message </strong><span class="requiredfield">*</span></legend>
+						<textarea name="comments" id="comments" rows="6" cols="50"></textarea>
+						</td>
+					</tr>
+				</table>
+					<span class="requiredfield">*</span>Required Fields
+					<p>&nbsp;</p>
+				<table>
+					<tr>
+						<td><input id="send" name="send" type="submit" value="Send" /></td>
+					</tr>
+				</table>
+				<p>&nbsp;</p>
+				<p><strong>Thank you for contacting us!</strong></p>
+				<p>&nbsp;</p>
+			</form>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div id="footer">
+		<p>&copy; 2012 all rights reserved.</p>
+	</div>
+</body>
+</html>
